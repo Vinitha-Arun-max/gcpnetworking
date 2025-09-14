@@ -31,3 +31,5 @@ service.json
 # Exclude backup files
 *.backup
 *.bak
+# Ignore Terraform backend configuration file
+backend.tf

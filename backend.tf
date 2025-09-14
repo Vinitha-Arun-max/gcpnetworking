@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = "${var.project}-tfstate"
+    bucket  = "banded-oven-469716-n3-bucket"
     prefix  = "terraform/state"
     # Optional: location = "us-east1"
   }
