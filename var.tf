@@ -19,9 +19,3 @@ variable "bucket_name" {
   type        = string
   default     = "vinistorage01"
 }
-
-variable "region" {
-  description = "The GCP region for the bucket."
-  type        = string
-  default     = "us-east1"
-}
