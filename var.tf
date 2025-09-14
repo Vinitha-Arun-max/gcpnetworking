@@ -19,3 +19,26 @@ variable "bucket_name" {
   type        = string
   default     = "vinistorage01"
 }
+variable "vpc_name" {
+  description = "Name of the VPC network"
+  type        = string
+  default     = "my-vpc"
+}
+
+variable "subnet_name" {
+  description = "Name of the subnet"
+  type        = string
+  default     = "my-subnet"
+}
+
+variable "region" {
+  description = "Region for the subnet"
+  type        = string
+  default     = "us-east1"
+}
+
+variable "ip_cidr_range" {
+  description = "CIDR range for the subnet"
+  type        = string
+  default     = "10.0.0.0/24"
+}
