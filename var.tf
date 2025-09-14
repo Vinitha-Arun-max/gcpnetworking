@@ -31,11 +31,6 @@ variable "subnet_name" {
   default     = "my-subnet"
 }
 
-variable "region" {
-  description = "Region for the subnet"
-  type        = string
-  default     = "us-east1"
-}
 
 variable "ip_cidr_range" {
   description = "CIDR range for the subnet"
