@@ -14,4 +14,14 @@ variable "credentials_file" {
   description = "Path to the GCP service account key JSON file"
   type        = string
 }
+variable "bucket_name" {
+  description = "The name of the GCP storage bucket."
+  type        = string
+  default     = "vinistorage01"
+}
 
+variable "region" {
+  description = "The GCP region for the bucket."
+  type        = string
+  default     = "us-east1"
+}
