@@ -33,3 +33,7 @@ service.json
 *.bak
 # Ignore Terraform backend configuration file
 backend.tf
+# Local Terraform directories and files
+.terraform.lock.hcl
+# Ignore backend configuration
+backend.tf
